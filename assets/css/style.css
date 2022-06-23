@@ -64,7 +64,18 @@ body.dark-theme{
     cursor: pointer;
 }
 
-.change-theme:hover{
+.generate-pdf{
+         position: absolute;
+    right: 0;
+    top: 2.2rem;
+    display: flex;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    }
+
+.change-theme:hover, 
+.generate-pdf:hover{
     color: var(--title-color);
 }
 
